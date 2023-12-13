@@ -2,9 +2,10 @@
 
 int main()
 {
-    int32_t a = 32U;
-
-    std::cout << a << "\n";
+    for (size_t i = 0U; i < 5; ++i)
+    {
+        std::cout << i << "\n";
+    }
 
     return 0;
 }
